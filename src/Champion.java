@@ -24,7 +24,6 @@ public class Champion {
     // Método para retornar o status do Champion
     public String status() {
         if (this.life <= 0) {
-            //return this.name + "  0 de vida (morreu)"
         	return this.name + ": "+ this.life +" de vida (morreu)"            		
             		+ "";
         } else {
